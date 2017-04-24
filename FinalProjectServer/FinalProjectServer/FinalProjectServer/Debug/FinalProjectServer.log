@@ -1,0 +1,21 @@
+﻿Build started 4/24/2017 6:16:17 PM.
+     1>Project "D:\FinalProjectServer\FinalProjectServer\FinalProjectServer\FinalProjectServer.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FinalPro.62913C47.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FinalProjectServer\FinalProjectServer\Debug\FinalProjectServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\FinalProjectServer\FinalProjectServer\Debug\FinalProjectServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FinalProjectServer\FinalProjectServer\Debug\FinalProjectServer.lib" /MACHINE:X86 Debug\gameboard.obj
+         Debug\gameManager.obj
+         Debug\main.obj
+         Debug\player.obj
+         Debug\server.obj
+         FinalProjectServer.vcxproj -> D:\FinalProjectServer\FinalProjectServer\Debug\FinalProjectServer.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\FinalPro.62913C47.tlog\unsuccessfulbuild".
+         Touching "Debug\FinalPro.62913C47.tlog\FinalProjectServer.lastbuildstate".
+     1>Done Building Project "D:\FinalProjectServer\FinalProjectServer\FinalProjectServer\FinalProjectServer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27
