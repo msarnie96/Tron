@@ -148,9 +148,11 @@
   <ItemGroup>
     <ClCompile Include="..\Source.cpp" />
     <ClCompile Include="gameboard.cpp" />
+    <ClCompile Include="gameManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gameboard.h" />
+    <ClInclude Include="gameManager.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="serverstructs.h" />

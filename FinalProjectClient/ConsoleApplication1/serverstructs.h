@@ -6,7 +6,6 @@
 // The port number was chosen from dynamic or private ports from 
 // https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
 const unsigned short PORT = 49263;
-const char* SERVER_IP = "64.72.2.203";
 const int UNAME_MAX_LENGTH = 20;
 
 const enum RequestTypes

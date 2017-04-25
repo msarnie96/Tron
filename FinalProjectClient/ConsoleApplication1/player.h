@@ -1,5 +1,11 @@
 #pragma once
 
+enum direction {
+	UP = 1,
+	RIGHT,
+	DOWN,
+	LEFT
+};
 struct playerinfo {
 	char username[20];
 	int wins;
