@@ -12,13 +12,16 @@ const enum RequestTypes
 {
 	INP,
 	LOGIN,
-	JOIN_GAME
+	JOIN_GAME,
+	LEADERBOARDS
 };
 const enum ResponseTypes
 {
 	ERR,
 	GAMESTATE,
-	LOGIN_RESP
+	LOGIN_RESP,
+	LEADERBOARD_RESP,
+	JOIN_RESP
 };
 const enum GameStatus {
 	LOBBY,
@@ -48,7 +51,13 @@ struct LOG_ON_RESPONSE {
 	int wins;
 	int losses;
 };
+struct LB_REQUEST {
+	MSG_HDR hdr;
+};
 
+struct LB_RESPONSE {
+	MSG_HDR hdr;
+};
 struct JOIN_REQUEST {
 	MSG_HDR hdr;
 };

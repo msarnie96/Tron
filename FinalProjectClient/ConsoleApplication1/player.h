@@ -8,6 +8,7 @@ enum direction {
 };
 struct playerinfo {
 	char username[20];
+	int playerId;
 	int wins;
 	int losses;
 };
